@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.degrade{
+    background: linear-gradient(to right, rgb(157, 127, 205), #6e73cf)
+}
+
+body{
+    background: linear-gradient(to left, rgb(99, 129, 159), rgb(102, 155, 209));
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header img{
+    max-width: 180px;
+    border-radius: 110%;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 300px;
+}
+
+header p{
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+section.botoes-link{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+a.link button{
+    width: 100%;
+    padding: 0px, 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: white;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.3em;
+}
+
+a.link button:hover, footer a.img-footer:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.img-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+
+}
